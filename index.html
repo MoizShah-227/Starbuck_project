@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="starbucks.js">
+    
+</head>
+<body>
+    <section class="section">
+        <div class="circle"> </div>
+        <header>
+            <a href="#" > <img src="logo.png" class="logo" ></a>
+            <ul>
+                <li> <a href="#"> Home</a></li>
+                <li> <a href="#"> Menu</a></li>
+                <li> <a href="#"> What's new?</a></li>
+                <li> <a href="#">Contect us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's  just coffee <br>it's <span>starbucks</span></h2>
+                <p>Girl you better order a Trenta coffee, because guess what is going to keep you up all night later.If you are an espresso shot, I would be so addicted to you that I have to attend Coffee Anonymous program.</p>
+                <a href="#">Learn more</a>
+            </div>
+                <div  class="sideimg">
+                    <img src="img1.png" id="starbucks" >
+                </div>
+        </div>
+        <ul class="thumb">
+            <li> <img src="thumb1.png" onclick="imgslider('img1.png')">  </li>
+            <li> <img src="thumb2.png" onclick="imgslider('img2.png')"> </li>
+            <li> <img src="thumb3.png" onclick="imgslider('img3.png')"> </li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"> <img src="facebook.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript" >
+        function imgSlider(anything){
+            document.queryselector('#starbucks').scr=anything;
+        }
+    </script>
+</body>
+</html>
